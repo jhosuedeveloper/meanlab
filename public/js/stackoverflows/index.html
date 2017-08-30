@@ -1,0 +1,12 @@
+<h1>Stackoverflows</h1>
+
+
+<ul>
+<li ng-repeat="stackoverflow in vm.stackoverflows">
+  <a data-ui-sref="stackoverflowsShow({id: stackoverflow._id})"> {{stackoverflow.title}} </a>
+  <!-- <h2>{{stackoverflow.snippet}}</h2> -->
+</li>
+</ul>
+
+
+  <a data-ui-sref="stackoverflowsNew"> CREATE A NEW STACKFLOW </a>

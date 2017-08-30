@@ -1,0 +1,12 @@
+[
+
+  {
+    "title": "each enumerator",
+    "snippet": "The $.each() function is not the same as $(selector).each(), which is used to iterate, exclusively, over a jQuery object. The $.each() function can be used to iterate over any collection, whether it is an object or an array. In the case of an array, the callback is passed an array index and a corresponding array value each time. (The value can also be accessed through the this keyword, but Javascript will always wrap the this value as an Object even if it is a simple string or number value.) The method returns its first argument, the object that was iterated."
+  },
+  {
+    "title": "map function",
+    "snippet": "map calls a provided callback function once for each element in an array, in order, and constructs a new array from the results. callback is invoked only for indexes of the array which have assigned values, including undefined. It is not called for missing elements of the array (that is, indexes that have never been set, which have been deleted or which have never been assigned a value)."
+  }
+
+]

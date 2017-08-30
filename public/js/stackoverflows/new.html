@@ -1,0 +1,16 @@
+
+
+
+
+<h2>New Stackoverflow</h2>
+
+<form>
+  <input placeholder="Title" data-ng-model="vm.stackoverflow.title" />
+  <input placeholder="Snippet" data-ng-model="vm.stackoverflow.snippet" />
+
+  <button type="button" data-ng-click="vm.create()">Create</button>
+</form>
+
+<pre>
+  {{vm.entry | json}}
+</pre>
